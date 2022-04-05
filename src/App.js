@@ -65,7 +65,7 @@ function App() {
           <td>{popularity}</td>
           <td>{wonOscar? "🏆" : null}</td>
           <td>{wonEmmy? "🏆" : null}</td>
-          <td><button onClick={(id)=>remove(id)}>Delete</button></td>
+          <td><button onClick={()=>remove(id)}>Delete</button></td>
         </tr>
         ))}
         </tbody>
